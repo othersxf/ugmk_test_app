@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "dockerize": "docker build --tag ugmk_test_app .",
-    "start-container": "docker run -p 3000:3000 -t -i ugmk_test_app"
+    "start-container": "docker run -p 3000:3000 --rm -t -i ugmk_test_app"
   },
   "dependencies": {
     "eslint": "8.39.0",
